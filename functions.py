@@ -57,12 +57,11 @@ def calculate_num_usable_hosts(num_hosts):
 def calculate_subnet_mask(sm):
     return ".".join(sm[i:i + 8] for i in range(0, len(sm), 8))
 
-
 # Calculate the wildcard mask
 def calculate_wildcard_mask(subnet_mask):
     # Split the subnet mask into octets
     octets = subnet_mask.split('.')
-    # Subtract each octet from 255
+    # Subtract each octet from 255 to get the wildcard mask
     wildcard_octets = [str(255 - int(octet)) for octet in octets]
     # Join the resulting octets with a dot
     wildcard_mask = '.'.join(wildcard_octets)
