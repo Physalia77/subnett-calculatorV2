@@ -33,14 +33,12 @@ This project is for educational purposes. Always verify network configurations w
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
 
 ## License
 
 This project includes code licensed under the MIT License. The original code comes from Forest-ttk-theme and is licensed under the MIT License. The original copyright and license information is as follows:
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ### Original Code
 
